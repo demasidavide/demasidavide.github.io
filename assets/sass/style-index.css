@@ -632,7 +632,11 @@ header > nav {
   padding: 15px;
   border-radius: 10px;
 }
-.projects > .container-projects > .card-project > h3 {
+.projects > .container-projects > .card-project > a {
+  text-decoration: none;
+}
+.projects > .container-projects > .card-project > a > h3 {
+  text-decoration: underline;
   font-family: inter, sans-serif;
   color: #E6F1FF;
 }

@@ -657,10 +657,14 @@ header > nav{
                 box-shadow: $pulsanti 0px 4px 8px;
                 padding: 15px;
                 border-radius: 10px;
-                >h3{
+                >a{
+                    text-decoration: none;
+                
+                >h3{                    
+                    text-decoration: underline;
                     font-family: $main-font;
                     color: $testo-principale;
-                }
+                }}
                 >p{
                     font-family: $main-font;
                     font-size: 18px;
