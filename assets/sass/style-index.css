@@ -853,6 +853,19 @@ footer > .container-footer > .column-center-footer > ul li > a:hover, footer > .
     top: 140%;
     width: 240px;
   }
+  .container-ham > .menu-ham .menu-list > a {
+    font-size: 1.3rem;
+    border-bottom: #112240 2px solid;
+  }
+  .container-ham > .menu-ham .menu-list > .dropstart > .btn {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .container-ham > .menu-ham .menu-list > .dropstart > .dropdown-menu > li > .dropdown-item {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
   .container-main > .container-column-right > .card-main > .card-description {
     width: 75%;
   }

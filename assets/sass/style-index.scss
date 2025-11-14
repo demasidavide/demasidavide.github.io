@@ -863,6 +863,20 @@ footer{
         .menu-list{
             top:140%;
             width: 240px;
+            > a{
+    font-size: 1.3rem;
+    border-bottom: $card 2px solid;
+}
+>.dropstart{
+    >.btn{
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    >.dropdown-menu > li >.dropdown-item{
+        font-size: 1.3rem;
+        font-weight: bold;
+}}
         }
     }
     }
