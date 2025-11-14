@@ -1021,6 +1021,16 @@ header{
     font-size: 1.3rem;
     border-bottom: $card 2px solid;
 }
+>.dropstart{
+    >.btn{
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    >.dropdown-menu > li >.dropdown-item{
+        font-size: 1.3rem;
+        font-weight: bold;
+}}
 }
     .container-main > .container-column-left > .container-img > img{
         margin-left: 20px;
