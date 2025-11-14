@@ -118,9 +118,11 @@ header > nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
     
         >li{
+           
         list-style: none;
        
                 >a{
