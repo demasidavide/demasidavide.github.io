@@ -21,6 +21,7 @@ const title = document.querySelector('.title')
     titleNews.style.display = 'block';
     sectionTop.style.display ='block';
     sectionNews.style.display ='block';
+    sectionNews.style.display = '';
     containerLoad.style.display ='block';
     sectionSearch.style.display ='block';
     
