@@ -130,4 +130,12 @@ async function topNews(){
 
     }
 }
-topNews()
+topNews();
+//scroll orizzontale all' hover del mouse
+const carouselTopNews = document.querySelector('.carousel-container');
+if(carouselTopNews){
+    carouselTopNews.addEventListener('wheel', (e)=>{
+        e.preventDefault();
+        carouselTopNews.scrollLeft += e.deltaY;
+    }, {passive: false});
+}

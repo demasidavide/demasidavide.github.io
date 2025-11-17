@@ -1,5 +1,7 @@
 @use '../abstract/variables';
-
+html{
+    scroll-behavior: smooth;
+}
 main{
     >.title{
         text-align: center;
@@ -21,6 +23,8 @@ main{
         
         
         >.carousel-container{
+            scrollbar-width: thin;
+            scrollbar-color: variables.$btn-color variables.$bg-color;
             // inizio set per carosello
             overflow-x: auto;
             overflow-y: hidden;
