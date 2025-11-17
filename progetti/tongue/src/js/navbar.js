@@ -34,7 +34,6 @@ const title = document.querySelector('.title')
     hideSection();
   }
 
-
 const nav = document.querySelector('.navbar');
 nav.addEventListener('click', (e) => {
     console.log(e)
@@ -44,12 +43,15 @@ nav.addEventListener('click', (e) => {
     if(!e.target.getAttribute('href').startsWith('#')){
       e.preventDefault();
     }
+    if(e.target.getAttribute('href').startsWith('#')){
+      newClick();
+    }
+
     nav.querySelectorAll('a').forEach(element => element.classList.remove('selected'));
     e.target.classList.add('selected');
   }
   if (e.target.dataset.page === 'new'){
       newClick();
-      
       
   }
   if(e.target.id === 'favorites'){
