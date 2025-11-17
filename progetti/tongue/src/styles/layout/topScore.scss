@@ -24,6 +24,7 @@ main{
         
         >.carousel-container{
             scrollbar-width: thin;
+            
             scrollbar-color: variables.$btn-color variables.$bg-color;
             // inizio set per carosello
             overflow-x: auto;
