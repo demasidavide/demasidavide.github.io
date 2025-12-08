@@ -1,232 +1,335 @@
 <!DOCTYPE html>
 <html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name ="author" content="Davide De Masi">
-    <meta name ="Il mio Curriculum-Vitae" content="Qui troverai il mio CV e le mie esperienze lavorative">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Davide De Masi" />
+    <meta
+      name="Il mio Curriculum-Vitae"
+      content="Qui troverai il mio CV e le mie esperienze lavorative"
+    />
     <title>Il mio Curriculum</title>
-    <link rel="stylesheet" href="../assets/sass/style-cv.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../assets/sass/style-cv.css" />
+  </head>
+  <body>
     <header id="0">
-        <nav>
+      <nav>
         <div class="nav-container">
-            <ul class="nav-links">
-                <li><a href="../index.html">Indietro</a></li>
-                <li><a href="/index.html#c-us">Contattami</a></li>
-            </ul>
+          <ul class="nav-links">
+            <li><a href="../index.html">Indietro</a></li>
+            <li><a href="/index.html#c-us">Contattami</a></li>
+          </ul>
         </div>
-        </nav>
+      </nav>
     </header>
     <div class="container">
-    <div class="column-left">
+      <div class="column-left">
         <div class="container-ham">
-            <!-- menu nascosto per tablet e mobile INIZIO -->
-            <details class="menu-ham">
-                <summary><img src="assets/img/icons8-menu.png"></summary>
-                <div class="menu-list">
-                    <a href="#0">Home</a>
-                    <a href="#1">Esperienze</a>
-                    <a href="#2">Istruzione</a>
-                    <a href="#3">Competenze e capacità</a>
-                    <a href="#5">Patenti</a>
-                    <a href="#6">Hobbies</a>
-                </div>
-            </details>
-            <!-- menu nascosto per tablet e mobile FINE -->
+          <!-- menu nascosto per tablet e mobile INIZIO -->
+          <details class="menu-ham">
+            <summary><img src="assets/img/icons8-menu.png" /></summary>
+            <div class="menu-list">
+              <a href="#0">Home</a>
+              <a href="#1">Esperienze</a>
+              <a href="#2">Istruzione</a>
+              <a href="#3">Competenze e capacità</a>
+              <a href="#5">Patenti</a>
+              <a href="#6">Hobbies</a>
+            </div>
+          </details>
+          <!-- menu nascosto per tablet e mobile FINE -->
         </div>
         <div class="container-list">
-            <ul>
-                <li class="list-group"><a href="#0">Home</a></li>
-                <li class="list-group"><a href="#1">Esperienze</a></li>
-                <li class="list-group"><a href="#2">Istruzione</a></li>
-                <li class="list-group"><a href="#3">Competenze e capacità</a></li>
-                <li class="list-group"><a href="#5">Patenti</a></li>
-                <li class="list-group"><a href="#6">Hobbies</a></li>   
-            </ul>
+          <ul>
+            <li class="list-group"><a href="#0">Home</a></li>
+            <li class="list-group"><a href="#1">Esperienze</a></li>
+            <li class="list-group"><a href="#2">Istruzione</a></li>
+            <li class="list-group"><a href="#3">Competenze e capacità</a></li>
+            <li class="list-group"><a href="#5">Patenti</a></li>
+            <li class="list-group"><a href="#6">Hobbies</a></li>
+          </ul>
         </div>
-    </div>
-    <div class="column-right">
+      </div>
+      <div class="column-right">
         <section class="info-personali">
-            <div class="testo">
-                <h1>Nome: Davide</h1>
-                <h1>Cognome: De Masi</h1>
-                <p>Indirizzo:</p>
-                <p>Telefono: </p>
-                
-                <p>E-Mail:</p>
-                <p>N.B.: per avere i miei contatti, per favore compila <a href="/index.html#c-us">questo Form</a></p>
-                <p>Nazionalita: Italiana</p>
-                <p>Data di Nascita: 01/08/1985</p>
-            </div>
-            <div class="foto">
-                <img src="/cv/assets/img/me.jpg" alt="Foto di Davide De Masi">
-            </div>
+          <div class="testo">
+            <h1>Nome: Davide</h1>
+            <h1>Cognome: De Masi</h1>
+            <p>Indirizzo:</p>
+            <p>Telefono:</p>
+
+            <p>E-Mail:</p>
+            <p>
+              N.B.: per avere i miei contatti, per favore compila
+              <a href="/index.html#c-us">questo Form</a>
+            </p>
+            <p>Nazionalita: Italiana</p>
+            <p>Data di Nascita: 01/08/1985</p>
+          </div>
+          <div class="foto">
+            <img src="/cv/assets/img/me.jpg" alt="Foto di Davide De Masi" />
+          </div>
         </section>
 
         <section class="esperienze-lavorative" id="1">
-            <div class="esp1">
-                <h1 class="titolo">Esperienze Lavorative e di formazione</h1>
-                <hr>
-                <h3>Date (da – a): 01/04/2024 - presente</h3>
-                <h3>Tipo di formazione: Informatica e telecomunicazione</h3>
-                <p>Studio dei principali linguaggi di programmazione per lo sviluppo di applicativi web, HTML, CSS (Vanilla e conoscenza di base di Framework Bootstrap e Tailwind), Javascript per la parte Front-end e PHP per il Back-end.
-Creazione e interrogazione di database relazionali con MySQL e studio base di C#.
-Conoscenza dei principali strumenti di intelligenza artificiale e delle tecniche base di Prompt Engineering.
-Conoscenza di GIT per Versioning del codice con GITHUB.
-Studio sulla gestione di base di sicurezza delle reti, la loro gestione e le possibili configurazioni.
-Attualmente frequento un master in Full Stack Development e AI Agent
-per approfondire React, Node.js e lo studio di Agent AI.</p>
-            </div>
-            <div class="esp3">
-                <h3>Date (da – a): 10/04/2022 – 01/09/2025</h3>
-                <h3>Tipo di impiego: Assistente Capo Reparto e Gestionali aziendali</h3>
-                <h4>Nome e indirizzo del datore di lavoro: Falconeri-Calzedonia Group presso Pettinatura Effeci S.R.L.
-                        Via Isangarda 36,13878 - Candelo (BI)</h4>
-                    <p>Addetto alla manutenzione e al controllo della produzione.
-Mi sono occupato della gestione dei macchinari del reparto produttivo e dei vari impianti presenti all'interno dello stabile e dei gestionali aziendali per la struttura dei report di manutenzione e ordini di lavoro.
-Gestito le manutenzioni programmate, i contatti e gli interventi dei tecnici esterni.
-Contemporaneamente mi sono occupato di coadiuvare il capo reparto nella gestione delle squadre di lavoro e del settaggio dei macchinari per ottenere i risultati richiesti dal laboratorio di controllo qualità.</p>
-            </div>
-            <div class="esp4">
-                <h3>Date (da – a): 02/11/2021 – 05/04/2022</h3>
-                <h3>Tipo di impiego: Installatore automazioni – Addetto assistenza tecnica</h3>
-                <h4>Nome e indirizzo del datore di lavoro: Lawer S.p.a. – Via Giovanni Amendola 14,13836 – Cossato (BI)</h4>
-                    <p>Addetto all' avviamento di impianti completi di dosaggio di prodotti chimici e coloranti nel settore tessile. Gestione di database relazionali e connessioni di rete. In sede mi sono occupato principalmente di
-                         assemblaggio e test di collaudo finale delle macchine dosatrici e, a rotazione, di assistenza tecnica remota.
-                         Presso il cliente finale, mi occupavo del montaggio e dell’avviamento dell’impianto, provvedendo alle relative connessioni e prove di avviamento generale, assistenza e istruzione su funzionamento e caratteristiche.
-                          A causa della pandemia da Covid-19, mi sono occupato anche di avviamenti di impianti nuovi, eseguiti totalmente da remoto. 
-                          Mi occupo inoltre di assistenza elettronica in caso di guasti e manutenzione periodica.</p>
-            </div>
-            <div class="esp5">
-                <h3>Date (da – a): 10/09/2018 – 08/02/2020</h3>
-                <h3>Tipo di impiego: Installatore software, elettrico-elettronico</h3>
-                <h4>Nome e indirizzo del datore di lavoro: Flainox Srl – Via Giacomo Leopardi 5, 13854 – Quaregna Cerreto(BI)</h4>
-                <p>Commercio e produzione macchine tessili per tintoria e finissaggio
-Addetto al cablaggio completo bordo macchina e parte di quadristica di macchine rotative per tintura e centrifugazione di capi confezionati calzetteria e Seamless. Mi occupavo anche dell' installazione dei comandi pneumatici e relativi collegamenti fra valvole/elettrovalvole/quadro elettrico per le diverse automazioni della macchina.
-Addetto al collaudo in sede con il controllo completo delle funzioni e l' adattamento/taratura di inverter, programmatori, Plc e diversi strumenti di misurazione (tra cui sonde livelli, dosometriche, contalitri, regolatori di flusso) in base alle diverse richieste del cliente, e successivi test di sicurezza per macchine in pressione.
-Mi occupavo infine dell'avviamento presso il cliente finale con relative prove di tintura, modifiche di ricette, programmi di lavorazione e assistenza tecnica.
-Durante l' ultimo anno mi sono occupato anche di installazione e test di nuove apparecchiature per possibili applicazioni future, collaborando con il nostro ufficio tecnico.</p>
-            </div>
-            <div class="esp6">
-                <h3>Date (da – a): 07/01/2007 – 24/08/2018</h3>
-                <h3>Tipo di impiego: Operaio meccanico specializzato</h3>
-                <h4>Nome e indirizzo del datore di lavoro: Be.Ma.Tex Srl – Via Quintino Sella 50, 13855 - Valdengo (BI)
-                    Via Papa Giovanni XXIII 100, 13882 - Cerrione (BI)</h4>
-                    <p>Da gennaio 2007 - Addetto a montaggio, smontaggio e revisione macchinari tessili di diverse tipologie (roccatura, binatura, ritorcitura e retrazioni a vapore/resistenza).
-Da luglio 2011 - Addetto a montaggio, cablaggio elettrico e installazione
-presso il Cliente in Italia e all'Estero; Addetto all'assistenza tecnica; Responsabile degli ordini di produzione (monitoraggio giacenze delle materie prime e degli ordini di rifornimento del magazzino).
-Coordinamento team di lavoro.</p>
-            </div>  
+          <div class="esp1">
+            <h1 class="titolo">Esperienze Lavorative e di formazione</h1>
+            <hr />
+            <h3>Date (da – a): 01/04/2024 - presente</h3>
+            <h3>Tipo di formazione: Informatica e telecomunicazione</h3>
+            <p>
+              Junior Web Developer con solida base tecnica maturata attraverso
+              un percorso di studi in Informatica e Telecomunicazioni e un
+              Master post diploma in Full Stack Development e AI Agent. Ho
+              esperienza nello sviluppo web (HTML, CSS, JavaScript, PHP), nella
+              gestione di database (MySQL) e nella configurazione di strumenti
+              di versionamento codice (Git/GitHub). Arrivo da un background
+              tecnico–industriale che mi ha dato metodo, precisione, ed
+              esperienza pratica in troubleshooting, gestione sistemi complessi
+              e problem solving in contesti produttivi. Sto costruendo una
+              carriera nel web development con l’obiettivo di crescere in ambito
+              web, frontend o full stack. .
+            </p>
+          </div>
+          <div class="esp3">
+            <h3>Date (da – a): 10/04/2022 – 01/10/2025</h3>
+            <h3>
+              Tipo di impiego: Assistente Capo Reparto e Gestionali aziendali
+            </h3>
+            <h4>
+              Nome e indirizzo del datore di lavoro: Falconeri-Calzedonia Group
+              presso Pettinatura Effeci S.R.L. Via Isangarda 36,13878 - Candelo
+              (BI)
+            </h4>
+            <p>
+              - Gestione dei macchinari del reparto produttivo e degli impianti
+              dello stabilimento.<br />
+              - Utilizzo e gestione dei software gestionali per manutenzione e
+              ordini di lavoro.<br />
+              - Pianificazione manutenzioni, contatto e coordinamento tecnici
+              esterni.<br />
+              - Supporto al capo reparto nella gestione della produzione e delle
+              squadre di lavoro.
+            </p>
+          </div>
+          <div class="esp4">
+            <h3>Date (da – a): 02/11/2021 – 05/04/2022</h3>
+            <h3>
+              Tipo di impiego: Installatore automazioni – Addetto assistenza
+              tecnica
+            </h3>
+            <h4>
+              Nome e indirizzo del datore di lavoro: Lawer S.p.a. – Via Giovanni
+              Amendola 14,13836 – Cossato (BI)
+            </h4>
+            <p>
+              - Installazione e avviamento impianti industriali con collegamenti
+              software e rete.<br />
+              - Gestione database relazionali per sistemi di dosaggio. <br />
+              - Collaudi, assistenza remota, test funzionali. <br />
+              - Assistenza tecnica e troubleshooting.
+            </p>
+          </div>
+          <div class="esp5">
+            <h3>Date (da – a): 10/09/2018 – 08/02/2020</h3>
+            <h3>
+              Tipo di impiego: Installatore software, elettrico-elettronico
+            </h3>
+            <h4>
+              Nome e indirizzo del datore di lavoro: Flainox Srl – Via Giacomo
+              Leopardi 5, 13854 – Quaregna Cerreto(BI)
+            </h4>
+            <p>
+              - Installazione e configurazione software industriali.<br />
+              - Collaudi, programmazione inverter, regolatori e strumenti di
+              misura.<br />
+              - Assistenza tecnica e avviamento remoto.
+            </p>
+          </div>
+          <div class="esp6">
+            <h3>Date (da – a): 07/01/2007 – 24/08/2018</h3>
+            <h3>Tipo di impiego: Operaio meccanico specializzato</h3>
+            <h4>
+              Nome e indirizzo del datore di lavoro: Be.Ma.Tex Srl – Via
+              Quintino Sella 50, 13855 - Valdengo (BI) Via Papa Giovanni XXIII
+              100, 13882 - Cerrione (BI)
+            </h4>
+            <p>
+              - Cablaggio, installazione, assistenza tecnica
+              nazionale/internazionale.<br />
+              - Gestione ordini di produzione e magazzino.<br />
+              - Montaggio, smontaggio e revisione macchine tessili.
+            </p>
+          </div>
         </section>
         <section class="istruzione" id="2">
-            <h1 class="titolo">Istruzione</h1>
-            <hr>
-            <div class="ist">
-                <h3>Date (da – a): 1998 - 2025</h3>
-                <h3>Nome e tipo di istituto di istruzione o formazione: Diploma in Informatica e telecomunicazione presso ITIS Quintino Sella – Valle Mosso e Biella</h3>
-                <p>Studio dei principali linguaggi di programmazione per lo sviluppo di applicativi fruibili in locale e applicativi web come SAAS, creazione e gestione di database relazionali. Studio sulla gestione di base di sicurezza delle reti, la loro gestione e le possibili configurazioni.
-Conoscenza e utilizzo dei seguenti linguaggi di programmazione:HTML CSS JAVASCRIPT PHP C# MYSQL
-Utilizzo di base di software Cisco come Packet Tracer per la configurazione di Router e Switch.
-Attualmente frequento un master in Full Stack Development e
-Agent AI.</p>
-            </div>
-            <div class="ist">
-                <h3>Date (da – a): 05/03/24</h3>
-                <h3>Nome e tipo di istituto di istruzione o formazione: Sita- Cittastudi</h3>
-                <p>Corso PES-PAV-PEI per l'abilitazione allo svolgimento di lavori elettrici in sicurezza</p>
-            </div>
-            <div class="ist">
-                <h3>Date (da – a): 02/08/2023-03/08/2023</h3>
-                <h3>Nome e tipo di istituto di istruzione o formazione: Sita- Cittastudi</h3>
-                <p>Corso per addetto al primo soccorso</p>
-            </div>
-            <div class="ist">
-                <h3>Date (da – a): 15/07/23</h3>
-                <h3>Nome e tipo di istituto di istruzione o formazione: Sita antincendio</h3>
-                <p>Corso per addetto a squadra antincendio di livello 1</p>
-            </div>
-            
-            <div class="ist">
-                <h3>Date (da – a): 05/05/20</h3>
-                <h3>Nome e tipo di istituto di istruzione o formazione: Corso Preposto per la sicurezza sul lavoro</h3>
-                <p>Corso Preposto per la gestione della sicurezza in ambito aziendale e in cantieri esterni strutturato in:
--Valutazione dei rischi in azienda
--Individuazione di misure di prevenzione e protezione
--Tecniche di comunicazione e sensibilizzazione dei lavoratori</p>
-            </div>
-            <div class="ist">
-                <h3>Date (da – a): 30/10/19</h3>
-                <h3>Nome e tipo di istituto di istruzione o formazione: Corso su quadri e macchine industriali, UL</h3>
-                <p>Corso su quadri, installazioni e cablaggi nel rispetto delle normative per il mercato Nord Americano con certificazione UL</p>
-            </div>
-            <div class="ist">
-                <h3>Date (da – a): 02/2019 – 08/02/2020</h3>
-                <h3>Nome e tipo di istituto di istruzione o formazione: Corso di lingua straniera : Inglese</h3>
-                <p>Corso di lingua straniera Inglese presso la scuola privata Cambridge School of Biella.</p>
-            </div>
-            <div class="ist">
-                <h3>Date (da – a): 17/09/2018 – 18/01/2019</h3>
-                <h3>Nome e tipo di istituto di istruzione o formazione: Corso di lingua straniera : Inglese- ED2</h3>
-                <p>Corso di lingua straniera Inglese livello Base per l'internazionalizzazione di impresa</p>
-            </div>
-            <div class="ist">
-                <h3>Date (da – a): 2011 - 2018</h3>
-                <h3>Nome e tipo di istituto di istruzione o formazione: Corso interno aziendale</h3>
-                <p> Utilizzo di tester, cablaggi e taratura di inverter Telemecanique, Mitsubishi, Santerno, Siemens.
-Taratura e regolazione di sensori ottici e stribbie ottico/capacitive, contalitri Siemens, misuratori di portata, misuratori di vibrazione e regolatori di flusso (principalmente IFM).
-Installazione e funzionamento di valvole pneumatiche ed elettrovalvole.
-Installazione e test di di connessione alla rete per teleassistenza e future applicazioni.</p>
-            </div>
+          <h1 class="titolo">Istruzione</h1>
+          <hr />
+          <div class="ist">
+            <h3>Date (da – a): 1998 - 2025</h3>
+            <h3>
+              Nome e tipo di istituto di istruzione o formazione: Diploma in
+              Informatica e telecomunicazione presso ITIS Quintino Sella – Valle
+              Mosso e Biella
+            </h3>
+            <p>
+              Studio dei principali linguaggi di programmazione per lo sviluppo
+              di applicativi fruibili in locale e applicativi web come SAAS,
+              creazione e gestione di database relazionali. Studio sulla
+              gestione di base di sicurezza delle reti, la loro gestione e le
+              possibili configurazioni. Conoscenza e utilizzo dei seguenti
+              linguaggi di programmazione:HTML CSS JAVASCRIPT PHP C# MYSQL
+              Utilizzo di base di software Cisco come Packet Tracer per la
+              configurazione di Router e Switch. Attualmente frequento un master
+              in Full Stack Development e Agent AI.
+            </p>
+          </div>
+          <div class="ist">
+            <h3>Date (da – a): 05/03/24</h3>
+            <h3>
+              Nome e tipo di istituto di istruzione o formazione: Sita-
+              Cittastudi
+            </h3>
+            <p>
+              Corso PES-PAV-PEI per l'abilitazione allo svolgimento di lavori
+              elettrici in sicurezza
+            </p>
+          </div>
+          <div class="ist">
+            <h3>Date (da – a): 02/08/2023-03/08/2023</h3>
+            <h3>
+              Nome e tipo di istituto di istruzione o formazione: Sita-
+              Cittastudi
+            </h3>
+            <p>Corso per addetto al primo soccorso</p>
+          </div>
+          <div class="ist">
+            <h3>Date (da – a): 15/07/23</h3>
+            <h3>
+              Nome e tipo di istituto di istruzione o formazione: Sita
+              antincendio
+            </h3>
+            <p>Corso per addetto a squadra antincendio di livello 1</p>
+          </div>
+
+          <div class="ist">
+            <h3>Date (da – a): 05/05/20</h3>
+            <h3>
+              Nome e tipo di istituto di istruzione o formazione: Corso Preposto
+              per la sicurezza sul lavoro
+            </h3>
+            <p>
+              Corso Preposto per la gestione della sicurezza in ambito aziendale
+              e in cantieri esterni strutturato in: -Valutazione dei rischi in
+              azienda -Individuazione di misure di prevenzione e protezione
+              -Tecniche di comunicazione e sensibilizzazione dei lavoratori
+            </p>
+          </div>
+          <div class="ist">
+            <h3>Date (da – a): 30/10/19</h3>
+            <h3>
+              Nome e tipo di istituto di istruzione o formazione: Corso su
+              quadri e macchine industriali, UL
+            </h3>
+            <p>
+              Corso su quadri, installazioni e cablaggi nel rispetto delle
+              normative per il mercato Nord Americano con certificazione UL
+            </p>
+          </div>
+          <div class="ist">
+            <h3>Date (da – a): 02/2019 – 08/02/2020</h3>
+            <h3>
+              Nome e tipo di istituto di istruzione o formazione: Corso di
+              lingua straniera : Inglese
+            </h3>
+            <p>
+              Corso di lingua straniera Inglese presso la scuola privata
+              Cambridge School of Biella.
+            </p>
+          </div>
+          <div class="ist">
+            <h3>Date (da – a): 17/09/2018 – 18/01/2019</h3>
+            <h3>
+              Nome e tipo di istituto di istruzione o formazione: Corso di
+              lingua straniera : Inglese- ED2
+            </h3>
+            <p>
+              Corso di lingua straniera Inglese livello Base per
+              l'internazionalizzazione di impresa
+            </p>
+          </div>
+          <div class="ist">
+            <h3>Date (da – a): 2011 - 2018</h3>
+            <h3>
+              Nome e tipo di istituto di istruzione o formazione: Corso interno
+              aziendale
+            </h3>
+            <p>
+              Utilizzo di tester, cablaggi e taratura di inverter Telemecanique,
+              Mitsubishi, Santerno, Siemens. Taratura e regolazione di sensori
+              ottici e stribbie ottico/capacitive, contalitri Siemens,
+              misuratori di portata, misuratori di vibrazione e regolatori di
+              flusso (principalmente IFM). Installazione e funzionamento di
+              valvole pneumatiche ed elettrovalvole. Installazione e test di di
+              connessione alla rete per teleassistenza e future applicazioni.
+            </p>
+          </div>
         </section>
         <section class="capacita" id="3">
-            <h1 class="titolo">Competenze e Capacità personali</h1>
-            <hr>
-            <div class="cap">
-                <h2>Lingue</h2>
-                <p>Madrelingua: Italiano</p>
-                <p>Inglese: Livello B2 (conoscenza scolastica e di base)</p>
-                <p>Spagnolo: Livello A1 (conoscenza e comprensione di base)</p>
-            </div>
-            <div class="cap">
-                <h3>Competenze relazionali:</h3>
-                <p>Capacità di lavorare in gruppo maturata in molteplici situazioni sia all'interno del contesto aziendale, sia presso Clienti in Italia o all'Estero.
-In particolare ho lavorato presso aziende Clienti in Italia, Messico, Brasile, Romania e Polonia collaborando con i team di dipendenti 
-delle aziende stesse, formandoli contestualmente su competenze di base
- relative alla manutenzione dei macchinari tessili installati e corretto funzionamento in base al tipo di lavorazione desiderata.</p>
-            </div>
-            <div class="cap">
-                <h3>Competenze organizzative:</h3>
-                <p>Capacità di organizzazione del lavoro in team, con la responsabilità di coordinamento di risorse.
-Capacità di lavorare in situazioni di stress, legate soprattutto al rapporto con la Clientela e alle scadenze fiscali delle consegne.</p>
-            </div>
-            <div class="cap">
-                <h3>Competenze professionali:</h3>
-                <p>Competenze tecniche su costruzione di roccatrici,binatrici,rotative per tintura capi e conoscenza specifica di tutti i componenti delle macchine stesse (le competenze 
-                    si estendono a tutti i macchinari di questo tipo, ma ho operato principalmente con i marchi Corghi, Be.Ma.Tex.,Savio,Flainox,Lawer).
-Configurazione del macchinario tessile sulla base delle esigenze specifiche del Cliente e del materiale tessile lavorato (tensione, paraffina, titolo delle rocche, cicli di tintura).
-Capacità di lettura di schemi elettrici, conoscenza di tester, cablaggi e taratura di inverter Telemecanique, Mitsubishi, Santerno, Siemens e di programmatori Setex, Sedo, SDS, Dcs.
-Cablaggi a bordo macchina e quadristica, comprese connessioni per controllo in remoto.
-Conoscenza degli applicativi Microsoft e del pacchetto Office; Conoscenza dei principali Browser di navigazione correntemente in uso.
-Utilizzo di base degli applicativi AutoCAD e Solidworks per valutazione e quotazione pezzi meccanici.</p>
-            </div>
+          <h1 class="titolo">Competenze e Capacità personali</h1>
+          <hr />
+          <div class="cap">
+            <h2>Lingue</h2>
+            <p>Madrelingua: Italiano</p>
+            <p>Inglese: Livello B2 (conoscenza scolastica e di base)</p>
+            <p>Spagnolo: Livello A1 (conoscenza e comprensione di base)</p>
+          </div>
+          <div class="cap">
+            <h3>Competenze relazionali:</h3>
+            <p>
+              Capacità di lavorare in gruppo maturata in molteplici situazioni
+              sia all'interno del contesto aziendale, sia presso Clienti in
+              Italia o all'Estero. In particolare ho lavorato presso aziende
+              Clienti in Italia, Messico, Brasile, Romania e Polonia
+              collaborando con i team di dipendenti delle aziende stesse,
+              formandoli contestualmente su competenze di base relative alla
+              manutenzione dei macchinari tessili installati e corretto
+              funzionamento in base al tipo di lavorazione desiderata.
+            </p>
+          </div>
+          <div class="cap">
+            <h3>Competenze organizzative:</h3>
+            <p>
+              Capacità di organizzazione del lavoro in team, con la
+              responsabilità di coordinamento di risorse. Capacità di lavorare
+              in situazioni di stress, legate soprattutto al rapporto con la
+              Clientela e alle scadenze fiscali delle consegne.
+            </p>
+          </div>
+          
         </section>
         <section class="patenti" id="5">
-            <h1 class="titolo">Patenti</h1>
-            <hr>
-            <p>Patente B, Automunito</p>
+          <h1 class="titolo">Patenti</h1>
+          <hr />
+          <p>Patente B, Automunito</p>
         </section>
         <section class="hobbies" id="6">
-            <h1 class="titolo">Hobbies</h1>
-            <hr>
-            <p>Nel tempo libero mi piace creare nuovi oggetti con stampante 3D FDM, e piccoli progetti con kit Arduino.</p>
+          <h1 class="titolo">Hobbies</h1>
+          <hr />
+          <p>
+            Nel tempo libero mi piace creare nuovi oggetti con stampante 3D FDM,
+            e piccoli progetti con kit Arduino.
+          </p>
         </section>
         <div class="legge">
-            <p>Ai sensi del D.Lgs. 196/2003 e del GDPR 679/2016, autorizzo il trattamento dei miei dati personali ai fini di selezione del personale.</p>
+          <p>
+            Ai sensi del D.Lgs. 196/2003 e del GDPR 679/2016, autorizzo il
+            trattamento dei miei dati personali ai fini di selezione del
+            personale.
+          </p>
         </div>
-    </div>
+      </div>
     </div>
     <script src="/cv/assets/javascript/script.js"></script>
-</body>
+  </body>
 </html>
