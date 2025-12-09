@@ -9,3 +9,6 @@ async function chiamata(){
         console.log("Temp Min oggi:", data.daily,time);
 }
 chiamata()
+
+
+
