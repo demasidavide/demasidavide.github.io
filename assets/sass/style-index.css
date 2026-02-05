@@ -269,7 +269,7 @@ header > nav {
 
 .passion1 {
   scroll-margin-top: 100px;
-  margin-top: 200px;
+  margin-top: 100px;
   height: 100%;
   width: 100%;
 }
@@ -413,200 +413,10 @@ header > nav {
   color: #8892b0;
 }
 
-@keyframes scrollVertical {
-  0% {
-    transform: translateY(0);
-  }
-  25% {
-    transform: translateY(-12.5%);
-  }
-  50% {
-    transform: translateY(-25%);
-  }
-  75% {
-    transform: translateY(-37.5%);
-  }
-  100% {
-    transform: translateY(-50%);
-  }
-}
-@keyframes scrollHorizontal {
-  0% {
-    transform: translateX(0);
-  }
-  10% {
-    transform: translateX(-10%);
-  }
-  20% {
-    transform: translateX(-20%);
-  }
-  30% {
-    transform: translateX(-30%);
-  }
-  40% {
-    transform: translateX(-40%);
-  }
-  50% {
-    transform: translateX(-50%);
-  }
-  60% {
-    transform: translateX(-60%);
-  }
-  70% {
-    transform: translateX(-70%);
-  }
-  80% {
-    transform: translateX(-80%);
-  }
-  90% {
-    transform: translateX(-90%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-.passion2 {
-  margin-top: 200px;
-  height: 700px;
-  width: 100%;
-}
-.passion2 > .container-col-p2 {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.passion2 > .container-col-p2 > .row-up {
-  background-image: url(../img/n-cane.jpg);
-  background-size: cover;
-  border-radius: 10px 10px 0px 0px;
-  width: 41%;
-  height: 70%;
-}
-.passion2 > .container-col-p2 > .row-down {
-  background-color: #112240;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 70%;
-  height: 60%;
-  border-radius: 20px;
-  box-shadow: #64ffda 0px 4px 8px;
-}
-.passion2 > .container-col-p2 > .row-down > .card-p2 {
-  text-align: center;
-}
-.passion2 > .container-col-p2 > .row-down > .card-p2 > h3,
-.passion2 > .container-col-p2 > .row-down > .card-p2 h4 {
-  font-family: "Pixelify Sans", sans-serif;
-  color: #e6f1ff;
-}
-.passion2 > .container-col-p2 > .row-down > .card-p2 > p {
-  font-family: inter, sans-serif;
-  font-size: 18px;
-  text-align: center;
-  margin-top: 10px;
-  color: #e6f1ff;
-}
-.passion2 > .container-col-p2 > .row-down > .card-p2 > .title {
-  font-family: inter, sans-serif;
-  color: #8892b0;
-}
-.passion2 > .container-col-p2 > .row-down > .card-p2 > .c {
-  font-family: inter, sans-serif;
-  color: #8892b0;
-}
-
-.passion3 {
-  margin-top: 200px;
-  height: 700px;
-  width: 80%;
-  background-color: #112240;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-.passion3 > .container-col-p3 {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  border-radius: 20px;
-  box-shadow: #64ffda 0px 4px 8px;
-}
-.passion3 > .container-col-p3 > .column-left {
-  height: 100%;
-  width: 60%;
-  padding: 5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.passion3 > .container-col-p3 > .column-left > .card-p3 {
-  text-align: center;
-  margin-left: 5%;
-}
-.passion3 > .container-col-p3 > .column-left > .card-p3 > h3 {
-  font-family: "DM Serif Display", serif;
-  font-size: 30px;
-  font-weight: bolder;
-  color: #e6f1ff;
-}
-.passion3 > .container-col-p3 > .column-left > .card-p3 > p {
-  font-family: inter, sans-serif;
-  font-size: 18px;
-  text-align: left;
-  margin-top: 10px;
-  color: #e6f1ff;
-}
-.passion3 > .container-col-p3 > .column-left > .card-p3 > .title {
-  font-family: inter, sans-serif;
-  color: #8892b0;
-}
-.passion3 > .container-col-p3 > .column-left > .card-p3 > .c {
-  font-family: inter, sans-serif;
-  color: #8892b0;
-}
-.passion3 > .container-col-p3 > .column-right {
-  height: 100%;
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-}
-.passion3 > .container-col-p3 > .column-right > .img-p3 {
-  width: 80%;
-  height: auto;
-  margin-top: 10%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.passion3 > .container-col-p3 > .column-right > .img-p3 > img {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  border-radius: 20px;
-}
-.passion3 > .container-col-p3 > .column-right > .img-p3-2 {
-  width: 80%;
-  height: auto;
-}
-.passion3 > .container-col-p3 > .column-right > .img-p3-2 > img {
-  width: 88%;
-  height: -moz-fit-content;
-  height: fit-content;
-  border-radius: 20px;
-}
-
 .projects {
   width: 100%;
   height: 500px;
-  margin-top: 200px;
+  margin-top: 10px;
   justify-content: center;
   text-align: center;
 }
@@ -617,7 +427,6 @@ header > nav {
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 80px;
-  margin-top: 150px;
 }
 .projects > .container-projects {
   display: flex;
@@ -844,6 +653,40 @@ footer > .container-footer .column-right-footer > ul li > a:hover {
     width: 100%;
   }
 }
+.passion1 > .meteo-widget {
+  width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #112240 0%, #233554 100%);
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 8px 16px #64ffda;
+}
+.passion1 > .meteo-widget > h2 {
+  margin: 30px 0 10px 0;
+  color: white;
+  font-size: 24px;
+}
+.passion1 > .meteo-widget .meteo-info {
+  color: white;
+  font-size: 18px;
+  margin: 10px 0;
+}
+.passion1 > .meteo-widget .meteo-gif {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.aqi {
+  margin-top: 50px;
+  font-size: 18px;
+  color: white;
+}
+
 @media screen and (max-width: 1660px) {
   .first-line > .container-social > .social img {
     height: 3rem;
@@ -904,6 +747,9 @@ footer > .container-footer .column-right-footer > ul li > a:hover {
   .contact > form > button {
     width: 40%;
   }
+  .meteo-widget {
+    width: 500px;
+  }
 }
 @media screen and (max-width: 768px) {
   .container-main {
@@ -922,6 +768,9 @@ footer > .container-footer .column-right-footer > ul li > a:hover {
   }
   .container-main > .container-column-right > .card-main > .card-description > h2 {
     width: 140%;
+  }
+  .meteo-widget {
+    width: 430px;
   }
   .passion1 > .container-col-p1 {
     flex-direction: column;
@@ -1051,6 +900,9 @@ footer > .container-footer .column-right-footer > ul li > a:hover {
   .passion1 > .projects-title {
     margin-bottom: 23%;
   }
+  .passion1 > .meteo-widget {
+    width: 350px !important;
+  }
   .passion1 > .container-col-p1 > .column-left {
     width: 60%;
     height: 33%;
@@ -1115,31 +967,4 @@ footer > .container-footer .column-right-footer > ul li > a:hover {
   .links-footer {
     text-align: left;
   }
-}
-.passion1 > .meteo-widget {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  background: linear-gradient(135deg, #112240 0%, #233554 100%);
-  border-radius: 15px;
-  text-align: center;
-  box-shadow: 0 8px 16px #64ffda;
-}
-.passion1 > .meteo-widget > h2 {
-  margin: 0 0 10px 0;
-  color: white;
-  font-size: 24px;
-}
-.passion1 > .meteo-widget .meteo-info {
-  color: white;
-  font-size: 18px;
-  margin: 10px 0;
-}
-.passion1 > .meteo-widget .meteo-gif {
-  width: 200px;
-  height: 200px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 10px;
-  margin-top: 15px;
 }/*# sourceMappingURL=style-index.css.map */

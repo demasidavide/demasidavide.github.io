@@ -21,11 +21,6 @@ html {
   scroll-behavior: smooth;
 
   > body {
-    // background-attachment: fixed;
-    // background-image: url("../img/sfondo-body.png");
-    // background-color: rgba(255, 255, 255, 0.8); /* Colore bianco semitrasparente */
-    // background-blend-mode: lighten;
-
     background-color: $sfondo;
   }
 }
@@ -61,7 +56,6 @@ html {
     transform: scale(1.1);
   }
 }
-
 .first-line {
   display: block;
   width: 100%;
@@ -312,7 +306,7 @@ header > nav {
 // PASSIONE 1
 .passion1 {
   scroll-margin-top: 100px;
-  margin-top: 200px;
+  margin-top: 100px;
   height: 100%;
   width: 100%;
 
@@ -465,212 +459,12 @@ header > nav {
     }
   }
 }
-// animazioni per foto passion1
-// tolto pause tra una foto e l 'altra
-@keyframes scrollVertical {
-  0% {
-    transform: translateY(0);
-  }
-  //   17.5% { transform: translateY(0); }
-  25% {
-    transform: translateY(-12.5%);
-  }
-  //    foto2
-  //   42.5% { transform: translateY(-12.5%); }
-  50% {
-    transform: translateY(-25%);
-  }
-  //    foto3
-  //   67.5% { transform: translateY(-25%); }
-  75% {
-    transform: translateY(-37.5%);
-  }
-  //    foto4
-  //   92.5% { transform: translateY(-37.5%); }
-  100% {
-    transform: translateY(-50%);
-  }
-}
-@keyframes scrollHorizontal {
-  0% {
-    transform: translateX(0);
-  }
-  10% {
-    transform: translateX(-10%);
-  }
-  20% {
-    transform: translateX(-20%);
-  }
-  30% {
-    transform: translateX(-30%);
-  }
-  40% {
-    transform: translateX(-40%);
-  }
-  50% {
-    transform: translateX(-50%);
-  }
-  60% {
-    transform: translateX(-60%);
-  }
-  70% {
-    transform: translateX(-70%);
-  }
-  80% {
-    transform: translateX(-80%);
-  }
-  90% {
-    transform: translateX(-90%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-// PASSIONE 2
-.passion2 {
-  margin-top: 200px;
-  height: 700px;
-  width: 100%;
-  > .container-col-p2 {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    > .row-up {
-      background-image: url(../img/n-cane.jpg);
-      background-size: cover;
-      border-radius: 10px 10px 0px 0px;
-      width: 41%;
-      height: 70%;
-    }
-    > .row-down {
-      background-color: $card;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 70%;
-      height: 60%;
-      border-radius: 20px;
 
-      box-shadow: $pulsanti 0px 4px 8px;
 
-      > .card-p2 {
-        text-align: center;
-
-        > h3,
-        h4 {
-          font-family: $pixels;
-          color: $testo-principale;
-        }
-        > p {
-          font-family: $main-font;
-          font-size: 18px;
-          text-align: center;
-          margin-top: 10px;
-          color: $testo-principale;
-        }
-        > .title {
-          font-family: $main-font;
-          color: $testo-secondario;
-        }
-        > .c {
-          font-family: $main-font;
-          color: $testo-secondario;
-        }
-      }
-    }
-  }
-}
-// PASSIONE 3
-.passion3 {
-  margin-top: 200px;
-  height: 700px;
-  width: 80%;
-  background-color: $card;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  > .container-col-p3 {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    border-radius: 20px;
-    box-shadow: $pulsanti 0px 4px 8px;
-    > .column-left {
-      height: 100%;
-      width: 60%;
-      padding: 5%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      > .card-p3 {
-        text-align: center;
-        margin-left: 5%;
-        > h3 {
-          font-family: $title-font;
-          font-size: 30px;
-          font-weight: bolder;
-          color: $testo-principale;
-        }
-        > p {
-          font-family: $main-font;
-          font-size: 18px;
-          text-align: left;
-          margin-top: 10px;
-          color: $testo-principale;
-        }
-        > .title {
-          font-family: $main-font;
-          color: $testo-secondario;
-        }
-        > .c {
-          font-family: $main-font;
-          color: $testo-secondario;
-        }
-      }
-    }
-    > .column-right {
-      height: 100%;
-      width: 40%;
-      display: flex;
-      flex-direction: column;
-      > .img-p3 {
-        width: 80%;
-        height: auto;
-        margin-top: 10%;
-        margin-left: auto;
-        margin-right: auto;
-        > img {
-          width: 100%;
-          height: auto;
-          max-width: 100%;
-          border-radius: 20px;
-        }
-      }
-      > .img-p3-2 {
-        width: 80%;
-        height: auto;
-
-        > img {
-          width: 88%;
-          height: fit-content;
-          border-radius: 20px;
-        }
-      }
-    }
-  }
-}
 .projects {
   width: 100%;
   height: 500px;
-  margin-top: 200px;
+  margin-top: 10px;
   justify-content: center;
   text-align: center;
   > .projects-title h2 {
@@ -680,7 +474,7 @@ header > nav {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 80px;
-    margin-top: 150px;
+    
   }
   > .container-projects {
     display: flex;
@@ -895,6 +689,42 @@ footer {
     width: 100%;
   }
 }
+.passion1 {
+  > .meteo-widget {
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, $card 0%,$hover 100%);
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 16px $pulsanti;
+
+    > h2 {
+      margin: 30px 0 10px 0;
+      color: white;
+      font-size: 24px;
+    }
+
+    .meteo-info {
+      color: white;
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .meteo-gif {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+  }
+}
+.aqi{
+    margin-top: 50px;
+    font-size: 18px;
+    color: white;
+}
 // media query per tablet e mobile
 @media screen and (max-width: 1660px) {
   .first-line > .container-social > .social img {
@@ -964,6 +794,9 @@ footer {
   .contact > form > button {
     width: 40%;
   }
+  .meteo-widget {
+    width: 500px;
+  }
 }
 @media screen and (max-width: 768px) {
   .container-main {
@@ -982,6 +815,9 @@ footer {
         width: 140%;
       }
     }
+  }
+  .meteo-widget {
+    width: 430px;
   }
   .passion1 > .container-col-p1 {
     flex-direction: column;
@@ -1117,6 +953,10 @@ footer {
     > .projects-title {
       margin-bottom: 23%;
     }
+    >.meteo-widget {
+      width: 350px !important;
+    }
+    
   }
   .passion1 > .container-col-p1 > .column-left {
     width: 60%;
@@ -1192,36 +1032,5 @@ footer {
   }
   .links-footer {
     text-align: left;
-  }
-}
-.passion1 {
-  > .meteo-widget {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background: linear-gradient(135deg, $card 0%,$hover 100%);
-    border-radius: 15px;
-    text-align: center;
-    box-shadow: 0 8px 16px $pulsanti;
-
-    > h2 {
-      margin: 0 0 10px 0;
-      color: white;
-      font-size: 24px;
-    }
-
-    .meteo-info {
-      color: white;
-      font-size: 18px;
-      margin: 10px 0;
-    }
-
-    .meteo-gif {
-      width: 200px;
-      height: 200px;
-      object-fit: cover;
-      border-radius: 10px;
-      margin-top: 15px;
-    }
   }
 }
