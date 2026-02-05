@@ -1,11 +1,11 @@
 // far scomparire freccia su e farla apparire solo a metà pagina
-const su=document.getElementById('up');
+const up=document.getElementById('up');
 document.addEventListener('scroll', ()=>{
-    const half= document.documentElement.scrollHeight / 5;
+    const half= document.documentElement.scrollHeight / 2;
     if(window.scrollY > half){
-        su.style.display= 'block';
+        up.style.display= 'block';
     }else{
-        su.style.display ="none";
+        up.style.display ="none";
     }
 });
 // ----------------------------------------------------------
@@ -17,17 +17,3 @@ alink.forEach(link=>{
         menu.removeAttribute('open');
    })
 });
-// ----------------------------------------------------------
-// cancellazione campi input e textarea dopo inserimento
-// const inp= document.querySelectorAll('input');
-// const area= document.querySelector('textarea');
-// const form=document.querySelector('form');
-
-// form.addEventListener('submit', ()=>{
-    
-//     inp.forEach(input => {   //inserisco ciclo for perche è una raccolta di query
-//         input.value = ""; 
-//     });
-//     area.value = "";
-// });
-// -----------------------------------------------------------

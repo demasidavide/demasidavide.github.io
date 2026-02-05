@@ -1,0 +1,17 @@
+.env
+secrets.env
+secret.*
+*.key
+*.pem
+token.txt
+credentials.json
+/node_modules/
+/dist/
+.DS_Store
+.vscode/
+.idea/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+coverage/
