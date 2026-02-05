@@ -306,15 +306,16 @@ header > nav {
 // PASSIONE 1
 .passion1 {
   scroll-margin-top: 100px;
-  margin-top: 100px;
+  margin-top: 10px;
   height: 100%;
   width: 100%;
 
   > .projects-title {
+
     text-align: center;
     font-family: $title-font;
     color: $testo-principale;
-    margin-bottom: 80px;
+    margin: 150px 0px 80px 0px;
   }
 
   > .container-col-p1 {
@@ -692,7 +693,7 @@ footer {
 .passion1 {
   > .meteo-widget {
     width: 600px;
-    margin: 20px auto;
+    margin: 10px auto;
     padding: 20px;
     background: linear-gradient(135deg, $card 0%,$hover 100%);
     border-radius: 15px;

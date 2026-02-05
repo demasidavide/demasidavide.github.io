@@ -269,7 +269,7 @@ header > nav {
 
 .passion1 {
   scroll-margin-top: 100px;
-  margin-top: 100px;
+  margin-top: 10px;
   height: 100%;
   width: 100%;
 }
@@ -277,7 +277,7 @@ header > nav {
   text-align: center;
   font-family: "DM Serif Display", serif;
   color: #e6f1ff;
-  margin-bottom: 80px;
+  margin: 150px 0px 80px 0px;
 }
 .passion1 > .container-col-p1 {
   width: 100%;
@@ -655,7 +655,7 @@ footer > .container-footer .column-right-footer > ul li > a:hover {
 }
 .passion1 > .meteo-widget {
   width: 600px;
-  margin: 20px auto;
+  margin: 10px auto;
   padding: 20px;
   background: linear-gradient(135deg, #112240 0%, #233554 100%);
   border-radius: 15px;

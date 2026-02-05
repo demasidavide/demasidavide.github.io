@@ -13,6 +13,7 @@ async function getMeteo() {
     document.getElementById("meteoInfo").textContent =
       `Temperatura: ${temp}°C - ${getWeatherDescription(weatherCode)}`;
 
+
     // Cambia GIF in base al meteo
     document.getElementById("meteoGif").src = getWeatherGif(weatherCode);
   } catch (error) {
@@ -66,7 +67,6 @@ getMeteo();
 const token = "1b7d1618ae4641ee62409a2b752408b5254d8d05";
 
 function getAirQuality(location) {
-  console.log("getAirQuality called for:", location);
   if (!token) {
     console.error("Token WAQI non impostato");
     return;
@@ -76,20 +76,11 @@ function getAirQuality(location) {
 
   fetch(url)
     .then((response) => {
-      console.log(
-        "Response status:",
-        response.status,
-        response.statusText,
-        "ok:",
-        response.ok,
-      );
+     
       const ct = response.headers.get("content-type") || "";
       if (ct.includes("application/json")) return response.json();
       return response.text().then((text) => {
-        console.log(
-          "Received non-JSON response (first 500 chars):",
-          text.slice(0, 500),
-        );
+        
         try {
           return JSON.parse(text);
         } catch (e) {
@@ -103,9 +94,6 @@ function getAirQuality(location) {
         console.error("Errore WAQI, status:", data.status, data);
         return;
       }
-
-      console.log("Città:", data.data.city.name);
-      console.log("AQI:", data.data.aqi);
 
       const aqi = data.data.aqi;
 
@@ -147,9 +135,7 @@ function getAirQuality(location) {
     })
     .catch((error) => {
       console.error("errore fetch WAQI:", error);
-      console.log(
-        "Verifica: controlla la Console (errors) e la Network tab per eventuali blocchi CORS o risposte non valide",
-      );
+      
     });
 }
 getAirQuality("Biella");
